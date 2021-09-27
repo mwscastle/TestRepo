@@ -1,9 +1,9 @@
 import pathlib
 
-CENTER_INTERVAL_LENGTH = 5
+CENTER_INTERVAL_LENGTH = 4
 MAJOR_UNIT_TICK_LENGTH = CENTER_INTERVAL_LENGTH + 1
 TICK_CHAR = '-'
-NUM_MAJOR_UNITS = 4
+NUM_MAJOR_UNITS = 2
 
 def print_tick(length):
     tick_string = TICK_CHAR * length
